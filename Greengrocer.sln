@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31105.61
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppCore", "AppCore\AppCore.csproj", "{1838EFAD-1D71-419A-9AA9-C6E96C20C559}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Greengrocer.DataAccess", "Greengrocer.DataAccess\Greengrocer.DataAccess.csproj", "{EC650E6E-F21F-45B0-A844-2078C2442685}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Greengrocer.Entity", "Greengrocer.Entity\Greengrocer.Entity.csproj", "{2BD49D06-294A-451A-A5CD-03974DE57401}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Greengrocer.Business", "Greengrocer.Business\Greengrocer.Business.csproj", "{ECF9CB6C-259B-4F31-ABF5-54F8D67CBB58}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Greengrocer.Infrastructure", "Greengrocer.Infrastructure\Greengrocer.Infrastructure.csproj", "{C4A7B9BD-338C-4F92-A156-471DD78E535E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Greengrocer.WebApi", "Greengrocer.WebApi\Greengrocer.WebApi.csproj", "{64B4C102-5F5D-48BE-BDE2-26AEB92B2B89}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1838EFAD-1D71-419A-9AA9-C6E96C20C559}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1838EFAD-1D71-419A-9AA9-C6E96C20C559}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1838EFAD-1D71-419A-9AA9-C6E96C20C559}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1838EFAD-1D71-419A-9AA9-C6E96C20C559}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC650E6E-F21F-45B0-A844-2078C2442685}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC650E6E-F21F-45B0-A844-2078C2442685}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC650E6E-F21F-45B0-A844-2078C2442685}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC650E6E-F21F-45B0-A844-2078C2442685}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BD49D06-294A-451A-A5CD-03974DE57401}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BD49D06-294A-451A-A5CD-03974DE57401}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BD49D06-294A-451A-A5CD-03974DE57401}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BD49D06-294A-451A-A5CD-03974DE57401}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECF9CB6C-259B-4F31-ABF5-54F8D67CBB58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECF9CB6C-259B-4F31-ABF5-54F8D67CBB58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECF9CB6C-259B-4F31-ABF5-54F8D67CBB58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECF9CB6C-259B-4F31-ABF5-54F8D67CBB58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4A7B9BD-338C-4F92-A156-471DD78E535E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4A7B9BD-338C-4F92-A156-471DD78E535E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4A7B9BD-338C-4F92-A156-471DD78E535E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4A7B9BD-338C-4F92-A156-471DD78E535E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64B4C102-5F5D-48BE-BDE2-26AEB92B2B89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64B4C102-5F5D-48BE-BDE2-26AEB92B2B89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64B4C102-5F5D-48BE-BDE2-26AEB92B2B89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64B4C102-5F5D-48BE-BDE2-26AEB92B2B89}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {75F84403-B792-4C36-96A8-4A47C9ACCC4F}
+	EndGlobalSection
+EndGlobal
