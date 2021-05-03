@@ -8,5 +8,6 @@ namespace AppCore.Entity
 {
     public interface IDTO
     {
+
     }
 }

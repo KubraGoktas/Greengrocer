@@ -37,13 +37,6 @@ namespace Greengrocer.WebApi.Controllers
             }
         }
 
-        // GET api/<ProductController>/5
-        //[HttpGet("{id}")]
-        //public string Get(int id)
-        //{
-        //    return "value";
-        //}
-
         // POST api/<ProductController>
         [HttpPost("AddProduct")]
         public async Task<ActionResult<string>> Post([FromBody] ProductAddDto productAdd)

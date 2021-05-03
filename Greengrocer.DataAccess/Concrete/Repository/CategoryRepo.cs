@@ -34,7 +34,6 @@ namespace Greengrocer.DataAccess.Concrete.Repository
             return await GetListQueryable(p =>!p.IsDeleted, p => p.Products)
                 .Select(p => new CategoryListDto
                 {
-
                     Name = p.Name,
                     Id=p.Id
                 }).ToListAsync();
